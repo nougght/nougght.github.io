@@ -13,9 +13,13 @@ h3.bl {
   color:blue;
 }
 
+
 #btn1 {
-  margin:200px 150px 20000px 150px;
-  font-size: large;
+  margin:200px 50% 20000px;
+  font-size: 30px;
+  padding: 10px 30px 10px 30px;
+  background-color:rgb(106, 106, 192);
+  color:white;
 }
 
 .imgl {

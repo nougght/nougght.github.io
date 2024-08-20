@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="fsite">
+
+<head>
+  <title>Страница</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table {
+      border: 4px solid orange;
+    }
+  </style>
+</head>
+
+<body>
+  <h1><a href="mailto:muhamedmakusev@gmail.com">muhamedmakusev@gmail.com</a></h1>
+  <br>
+  <table border="1">
+    <caption>Пищевая ценность</caption>
+    <tr>
+      <th>Блюда</th>
+      <th colspan="2">Калории и жиры</th>
+    </tr>
+    <tr>
+      <td>Салат Цезарь</td>
+      <td>400</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>Куриный бульон</td>
+      <td>120</td>
+      <td>2</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th rowspan="3">Порции</th>
+      <td>Маленькая (150 г.)</td>
+    </tr>
+    <tr>
+      <td>Средняя (250 г.)</td>
+    </tr>
+    <tr>
+      <td>Большая (2400 г)</td>
+    </tr>
+  </table>
+  <br>
+  <h3> Формы </h3>
+  <form>
+    Имя:<br>
+    <input class="tx" type="text" name="firstname" id="firstname" value="Иван" maxlength="5">
+    <br>
+    Фамилия:<br>
+    <input class="tx" type="text" name="lastname" id="lastname">
+    <br>
+    Пароль
+    <br>
+    <input type="password" name="password" size="10">
+    <br>
+    Флажок
+    <br>
+    <input type="checkbox" name="punk">Панк-рок<br>
+    <input type="checkbox" name="indie">Инди-рок<br>
+    <input type="checkbox" name="techno">Техно<br>
+    <input type="checkbox" name="rockabilly">Рокабилли<br>
+    <br>
+    Цвет
+    <br>
+    <input type="color" name="color">
+    <br>
+    Дата
+    <br>
+    <input type="date" name="date">
+    <br>
+    Дата+время
+    <br>
+    <input type="datetime" name="datetime">
+    <br>
+    Дата+местное время
+    <br>
+    <input type="datetime-local" name="datelocaltime">
+    <br>
+    Почта
+    <br>
+    <input type="email" name="email">
+    <br>
+    Файл
+    <br>
+    <input type="file" name="file">
+    <br>
+    <br>
+    Скрытое поле для технических целей
+    <br>
+    <input type="hidden" name="hidden">
+    <br>
+    Изображенние (кликабельная?)
+    <br>
+    <input type="image" name="image" width="300" src="PiyxQRC0s2M.jpg" alt="котик">
+    <br>
+    Месяц
+    <br>
+    <input type="month" name="month">
+    <br>
+    Числа
+    <br>
+    <input type="number" name="number">
+    <br>
+    Переключатель
+    <br>
+    <input type="radio" name="age" value="menee18"> менее 18<br>
+    <input type="radio" name="age" value="ot18do35" checked> от 18 до 35<br>
+    <input type="radio" name="age" value="ot36do60"> от 36 до 60<br>
+    <input type="radio" name="age" value="bolee60"> более 60<br>
+    <br>
+    <input type="radio" name="age2" value="123"> 123<br>
+    <br>
+    Число в диапазоне
+    <br>
+    <input type="range" name="range">
+    <br>
+    Поиск
+    <br>
+    <input type="search" name="search">
+    <br>
+    Телефон
+    <br>
+    <input type="tel" name="tel">
+    <br>
+    Время
+    <br>
+    <input type="time">
+    <br>
+    Веб-адрес, ссылка
+    <br>
+    <input type="url">
+    <br>
+    Неделя+год
+    <br>
+    <input type="week">
+    <br>
+
+
+    <h3 class="bl">Раскрывающийся Список</h3>
+    <p>Какая ваша любимая группа восьмидесятых?
+      <select name="EightiesFave">
+        <option value="1">The Cure</option>
+        <option value="2">Cocteau Twins</option>
+        <option value="3" selected>Tears for Fears</option>
+        <option value="4">Thompson Twins</option>
+        <option value="5">Everything But the Girl</option>
+        <option value="6">Depeche Mode</option>
+        <option value="7">The Smiths</option>
+        <option value="8">New Order</option>
+      </select>
+    </p>
+
+    <h3 class="bl">Прокручиваемый Список c мультивыбором</h3>
+    <p>Какая ваша любимая группа восьмидесятых? <br>
+      <select name="EightiesFave" size="6" multiple>
+        <option value="1">The Cure</option>
+        <option value="2">Cocteau Twins</option>
+        <option value="3" selected="selected">Tears for Fears</option>
+        <option value="4" selected="selected">Thompson Twins</option>
+        <option value="5">Everything But the Girl</option>
+        <option value="6">Depeche Mode</option>
+        <option value="7">The Smiths</option>
+        <option value="8">New Order</option>
+      </select>
+    </p>
+
+    <br>
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Начать заново">
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+html.fsite{
+  background-color:paleGreen;
+}
+input#firstname, #lastname {
+  background-color:yellow;
+}
+/*комментарий*/
+.tx {
+  color:red;
+}
+
+h3.bl {
+  color:blue;
+}
+

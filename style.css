@@ -13,3 +13,15 @@ h3.bl {
   color:blue;
 }
 
+#btn1 {
+  margin:200px 150px 20000px 150px;
+}
+
+.imgl {
+  text-decoration: none;
+}
+
+#firstlink, #secondlink {
+  position:relative;
+  margin: 20px 20px 20px 20px
+}

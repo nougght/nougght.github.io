@@ -1,3 +1,4 @@
+
 html.fsite{
   background-color:paleGreen;
 }
@@ -14,19 +15,69 @@ h3.bl {
 }
 
 
+
+/* index */
+.ind {
+  position:relative;
+  height:fit-content;
+  width:90%;
+  margin: auto;
+}
+.ind a {
+  text-decoration:none;
+}
+.ind header {
+  position:relative;
+}
 #btn1 {
-  margin:200px 50% 20000px;
+  display:block;
+  width:fit-content;
+  margin:35% auto 10000em;
   font-size: 30px;
   padding: 10px 30px 10px 30px;
   background-color:rgb(106, 106, 192);
   color:white;
 }
 
-.imgl {
-  text-decoration: none;
+#firstlink, #secondlink {
+  margin: 40px;
 }
 
-#firstlink, #secondlink {
-  position:relative;
-  margin: 20px 20px 20px 20px
+#firstlink {
+  float: left;
+}
+#secondlink {
+  float: right;
+}
+
+.refs {
+  width:fit-content;
+  margin:40em auto 150%;
+}
+
+.end {
+  right:0;
+  position:absolute;
+  bottom: 0;
+}
+
+.rfs {
+  width:60%;
+  margin:0 auto;
+  height: fit-content;
+}
+.rfs li {
+  margin: 1.2em;
+  color:rgb(6, 201, 58);
+}
+.rfs li a {
+  color:rgb(8, 100, 26);
+  font-size: 20px;
+  text-decoration: underline overline rgb(6, 201, 58);
+}
+
+.rfs li:nth-of-type(even) {
+  direction:rtl;
+  width:fit-content;
+  margin:0 0 0 auto;
 }

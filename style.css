@@ -39,14 +39,11 @@ h3.bl {
   color:white;
 }
 
-#firstlink, #secondlink {
+.imglink {
   margin: 40px;
 }
 
-#firstlink {
-  float: left;
-}
-#secondlink {
+.rightimg {
   float: right;
 }
 
